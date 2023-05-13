@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=a316b658eb4afd83e8fe7205099ca429&amp;type=3#Style" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 175, 255, 0); align-items: center; justify-content: flex-end; align-self: center; height: 438px; width: 622px; background-image: none;">
+        <ui:Label tabindex="-1" text="About" display-tooltip-when-elided="true" class="button-style" style="align-items: center; align-self: center; -unity-text-align: middle-center; -unity-font-style: bold; position: absolute; top: 14px; left: 238px;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 255, 255); height: 295px; width: 693px; position: absolute; top: 83px; left: -36px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255); border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+            <ui:Label tabindex="-1" text="Created By Team" display-tooltip-when-elided="true" class="button-style" style="position: absolute; top: 13px; left: 352px; width: 200px;" />
+            <ui:Label tabindex="-1" display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Resources/UI/unity.png?fileID=2800000&amp;guid=78f55c3c22bb46bdda4d7bda894f2a10&amp;type=3#unity&apos;); position: absolute; height: 168px; width: 305px; top: 66px; left: 80px;" />
+            <ui:Label tabindex="-1" display-tooltip-when-elided="true" style="position: absolute; top: 60px; left: 21px; background-image: url(&apos;project://database/Assets/Resources/UI/cucei.png?fileID=2800000&amp;guid=6ea342d637e796b8f8f92335f72eb60f&amp;type=3#cucei&apos;); height: 165px; width: 116px;" />
+            <ui:Button text="X" display-tooltip-when-elided="true" name="ButtonClose" style="position: absolute; top: 5px; left: 647px; height: 35px; width: 35px; border-left-color: rgb(49, 169, 228); border-right-color: rgb(49, 169, 228); border-top-color: rgb(49, 169, 228); border-bottom-color: rgb(49, 169, 228); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; background-color: rgb(234, 93, 90); -unity-font-style: bold; font-size: 20px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 134px; width: 339px; position: absolute; top: 89px; left: 340px; -unity-font-style: bold;">
+                <ui:Label tabindex="-1" text="PM - Orlando Agustin Barba Palacios" display-tooltip-when-elided="true" name="Label" />
+                <ui:Label tabindex="-1" text="Designer - Barajas Gomez Juan Manuel" display-tooltip-when-elided="true" name="Label" />
+                <ui:Label tabindex="-1" text="Developer - Angel Jahir Apodaca Gutierrez" display-tooltip-when-elided="true" name="Label" />
+                <ui:Label tabindex="-1" text="Developer - Leobardo Leonel Cortes Perez" display-tooltip-when-elided="true" name="Label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=a316b658eb4afd83e8fe7205099ca429&amp;type=3#Style" />
+    <ui:GroupBox name="GroupBox" style="height: 509px; width: 1099px; position: relative; flex-direction: column; align-items: stretch; justify-content: flex-start;">
+        <ui:Label text="Selecciona un Pokimon" display-tooltip-when-elided="true" style="height: 96px; width: 1030px; -unity-text-align: upper-center; font-size: 50px;" />
+        <ui:GroupBox name="grupBotones" style="align-items: center; position: relative; width: 1027px; flex-direction: row; height: 395px; justify-content: center;">
+            <ui:Button display-tooltip-when-elided="true" name="pet1" style="width: 300px; height: 300px; background-image: resource(&apos;Sprites/Pokemons/charmander&apos;); background-color: rgba(238, 200, 170, 255);" />
+            <ui:Button display-tooltip-when-elided="true" name="pet2" style="width: 300px; height: 300px; background-image: resource(&apos;Sprites/Pokemons/elekid&apos;); background-color: rgba(255, 249, 186, 255);" />
+            <ui:Button display-tooltip-when-elided="true" name="pet3" style="width: 300px; height: 300px; background-image: resource(&apos;Sprites/Pokemons/munchlax&apos;); background-color: rgba(195, 195, 195, 255);" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
